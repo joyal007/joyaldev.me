@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "BlackOps-Regular";
+    src: url("$lib/assets/font/BlackOpsOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "FiraCode";
+    src: url("$lib/assets/font/Jost-VariableFont_wght.ttf");
+ 
+}
