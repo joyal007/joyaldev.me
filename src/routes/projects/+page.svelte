@@ -4,19 +4,57 @@
     import icefossImg from "$lib/assets/images/icefoss.webm";
     import jsSvg from "$lib/assets/images/js.svg";
     import m3homeImg from "$lib/assets/images/m3homes.png"
+    import pdfEditorImg from "$lib/assets/images/pdfeditor.svg"
     import reactSvg from "$lib/assets/images/react.svg";
-    import yalGamerImg from "$lib/assets/images/yalgamers.png"
-    import goSvg from "$lib/assets/images/go.svg";;
+    import yalGamerImg from "$lib/assets/images/yalgamers.png";
+    const formbricksImg = "https://user-images.githubusercontent.com/675065/203262290-3c2bc5b8-839c-468a-b675-e26a369c7fe2.png"
+    import goSvg from "$lib/assets/images/go.svg";
     import goImg from "$lib/assets/images/goBan.webp";
-    import htmlSvg from "$lib/assets/images/html.svg"
+    const shortendImg = "https://i0.wp.com/www.thestartupfounder.com/wp-content/uploads/2022/10/Link-Shortener.jpg?fit=640%2C480&ssl=1";
+    import htmlSvg from "$lib/assets/images/html.svg";
+    const formeditorImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAkIc791fFEqtwVdO-d6k-zOQCOCo15PIGS3NrsZz2ldIllz5-Dltoy8q4z01dzkha4tw&usqp=CAU"
     const projects = [
+        {
+            link:"https://github.com/formbricks/formbricks/pull/931",
+            title: "formbricks",
+            img: formbricksImg,
+            cont: `My first open-source contribution.\n 
+            My PR is about introducing keyboard gestures to formbricks for better UX`,
+            svg: jsSvg,
+            type:"img",
+            website:"https://formbricks.com"
+        },
         {
             link:"",
             title: "Yal_gamers",
             img: yalGamerImg,
-            cont: "Project developed using  sveltekit, PocketBase",
+            cont: "Yalgamers is an application for gaming community. Built using svelteJs",
             svg: jsSvg,
             type:"img",
+        },{
+            link:"https://github.com/joyal007/url-shortened/",
+            title: "Url-shortener",
+            img: shortendImg,
+            cont: `Easy url shortener for making urls shortend, created using Next JS and Postgres`,
+            svg: jsSvg,
+            type:"img",
+            website:"https://url.joyaldev.me"
+        },{
+            link:"https://github.com/joyal007/form-editor/",
+            title: "FormEditor (Developing)",
+            img: formeditorImg,
+            cont: `Simple formeditor with 3 types of question. Along with drag and drop features`,
+            svg: jsSvg,
+            type:"img",
+            website:"https://formeditor.joyaldev.me"
+        },{
+            link:"https://github.com/joyal007/pdf-editor",
+            title: "Pdf Splitter (Developing)",
+            img: pdfEditorImg,
+            cont: "Simple pdf splitter for easy and instant pdf splitting and swapping pages",
+            svg: jsSvg,
+            type:"img",
+            website:"https://pdfsplitter.joyaldev.me"
         },{
             link:"https://github.com/joyal007/Icefoss-checkin",
             title: "Go-Backend",

@@ -9,11 +9,11 @@
     export let type
     import githubSvg from "$lib/assets/images/github-variant.svg"
 </script>
-<div>
+<div class="h-full">
 <p class="text-typo-blue text-base font-[700] not-italic font-FiraCode my-3">{title}</p>
 <div class="rounded-[15px] relative border border-accent-10 overflow-hidden bg-primary-bg-variant">
     {#if type=="img"}
-    <img src={image} class="w-full h-full object-cover"/>
+    <img src={image} class="w-full aspect-[1.81/1] h-full object-contain"/>
     {:else}
         <video width="100%" class="" height="146px" autoplay muted>
             <source src={image} type="video/webm">
