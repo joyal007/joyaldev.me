@@ -45,8 +45,8 @@
 				</p>
 			</div>
 			{#if opened == 'contact'}
-				<div transition:slide={{ easing: cubicInOut, duration: 100 }}>
-					<div class="flex pl-[27px] gap-4 mt-4">
+				<div transition:slide={{ easing: cubicInOut, duration: 100 }} class="md:hidden">
+					<div class="flex pl-[27px] gap-4 mt-4 ">
 						<img src={mailSvg} width="14px" height="11px" />
 						<a
 							class="text-white font-FiraCode text-base font-normal not-italic"
@@ -62,6 +62,22 @@
 					</div>
 				</div>
 			{/if}
+			<div class="hidden md:block">
+					<div class="flex pl-[27px] gap-4 mt-4">
+						<img src={mailSvg} width="14px" height="11px" />
+						<a
+							class="text-white font-FiraCode text-base font-normal not-italic"
+							href="mailto:joyalraphel00@gmail.com">joyalraphel00@gmail.com</a
+						>
+					</div>
+					<div class="flex pl-[27px] gap-4 mt-4">
+						<img src={phoneSvg} width="14px" height="11px" />
+						<a
+							class="text-white font-FiraCode text-base font-normal not-italic"
+							href="tel:+91-9947975499">+91-9947975499</a
+						>
+					</div>
+			</div>
 		</div>
 		<div class=" mt-8 md:mt-0 w-full">
 			<div class="hidden w-full md:block border-b border-accent-10">
