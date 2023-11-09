@@ -12,6 +12,8 @@
     import goImg from "$lib/assets/images/goBan.webp";
     const shortendImg = "https://i0.wp.com/www.thestartupfounder.com/wp-content/uploads/2022/10/Link-Shortener.jpg?fit=640%2C480&ssl=1";
     import htmlSvg from "$lib/assets/images/html.svg";
+    import unsplashImg from "$lib/assets/images/unsplash.png";
+    
     const formeditorImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAkIc791fFEqtwVdO-d6k-zOQCOCo15PIGS3NrsZz2ldIllz5-Dltoy8q4z01dzkha4tw&usqp=CAU"
     const projects = [
         {
@@ -39,6 +41,14 @@
             svg: jsSvg,
             type:"img",
             website:"https://url.joyaldev.me"
+        },{
+            link:"https://github.com/joyal007/unsplash-gallery",
+            title: "Unsplash Gallery",
+            img: unsplashImg,
+            cont: `An image gallery with search feature. Images are retrieved from UnSplash`,
+            svg: jsSvg,
+            type:"img",
+            website:"https://url.joyaldev.me/UV73Xt"
         },{
             link:"https://github.com/joyal007/form-editor/",
             title: "FormEditor (Developing)",
