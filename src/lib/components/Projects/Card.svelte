@@ -25,9 +25,9 @@
     <div class="px-[21px]">
         <p class="font-FiraCode text-base font-[450] text-secondary not-italic mt-5 mb-4">{content}</p>
         <div class="flex w-full justify-between items-center mb-[24px]">
-            <a href={`${website?website:link}`} class="text-white rounded-[8px] font-[450] font-FiraCode text-sm px-[14px] py-[10px] bg-accent-30">view-project</a>
+            <a href={`${website?website:link}`} target="_blank" class="text-white rounded-[8px] font-[450] font-FiraCode text-sm px-[14px] py-[10px] bg-accent-30">view-project</a>
             {#if link}
-            <a href="{link}" class="drop-shadow-md rounded-full w-8 h-8 bg-slate-700 p-[3px]">
+            <a href="{link}" target="_blank" class="drop-shadow-md rounded-full w-8 h-8 bg-slate-700 p-[3px]">
                 <img src={githubSvg} height="25px" width="25px"/>
             </a>
             {/if}
