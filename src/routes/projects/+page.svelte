@@ -136,9 +136,9 @@
 </script>
 
 <div>
-	<p class="text-white pt-4 pl-[27px] font-FiraCode text-sm font-[450] leading-tight not-italic">
+	<!-- <p class="text-white pt-4 pl-[27px] font-FiraCode text-sm font-[450] leading-tight not-italic">
 		_projects
-	</p>
+	</p> -->
 	<div class="mx-[27px] mt-5 grid grid-cols-1 gap-4 md:grid-cols-3">
 		{#each projects as project}
 			<Card

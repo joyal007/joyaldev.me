@@ -34,6 +34,14 @@
 					_about-me
 				</p>
 			</a>
+			<a href="/experience" class="cursor-pointer border-l-[1px] border-accent-10">
+				<p
+					class="px-[31px] py-[16px] h-full font-FiraCode hover:text-white text-base font-[450] not-italic"
+					class:text-white={$page.url.pathname == '/experience'}
+				>
+					_experience
+				</p>
+			</a>
 			<a href="/projects" class="cursor-pointer border-l-[1px] border-r-[1px] border-accent-10">
 				<p
 					class="px-[31px] py-[16px] font-FiraCode hover:text-white text-base font-[450] not-italic"
@@ -95,6 +103,15 @@
 					class="flex w-full justify-between items-center p-[17px] border-b-[1px] border-accent-10"
 				>
 					<p class="font-FiraCode text-white text-base font-normal not-italic">_about-me</p>
+				</button>
+				<button
+					on:click={() => {
+						sidebarOpen = false;
+						goto('/experience');
+					}}
+					class="flex w-full justify-between items-center p-[17px] border-b-[1px] border-accent-10"
+				>
+					<p class="font-FiraCode text-white text-base font-normal not-italic">_experience</p>
 				</button>
 				<button
 					on:click={() => {
