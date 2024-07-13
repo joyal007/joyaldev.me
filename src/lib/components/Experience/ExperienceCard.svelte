@@ -33,13 +33,15 @@
 					{description}
 				</p>
 			</div>
-			<ul class="flex gap-1 text-sm pt-5 flex-wrap">
-				{#each techStack as tech}
-					<li class=" bg-[#2dd4bf1a] rounded-full py-1 px-3">
-						<p class="text-[#5eead4]">{tech}</p>
-					</li>
-				{/each}
-			</ul>
+			{#if techStack && techStack.length > 0}
+				<ul class="flex gap-1 text-sm pt-5 flex-wrap">
+					{#each techStack as tech}
+						<li class=" bg-[#2dd4bf1a] rounded-full py-1 px-3">
+							<p class="text-[#5eead4]">{tech}</p>
+						</li>
+					{/each}
+				</ul>
+			{/if}
 		</div>
 	</div>
 </a>
