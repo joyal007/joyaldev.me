@@ -109,12 +109,24 @@
 						<img height="24px" width="24px" src={linkedinSvg} alt="twitter" />
 					</a>
 				</div>
-				<div class="text-secondary hover:text-white">
+				<div class="text-secondary flex">
 					<a
 						href="https://github.com/joyal007"
 						class="px-[14px] py-[14px] border-l-[1px] border-accent-10 h-full flex justify-center"
 					>
-						<p class="hidden md:block text-base font-FiraCode mr-2 pl-1 font-normal not-italic">
+						<p
+							class="hidden hover:text-white md:block text-base font-FiraCode mr-2 pl-1 font-normal not-italic"
+						>
+							Resume
+						</p>
+					</a>
+					<a
+						href="https://github.com/joyal007"
+						class="px-[14px] py-[14px] border-l-[1px] border-accent-10 h-full flex justify-center"
+					>
+						<p
+							class="hidden hover:text-white md:block text-base font-FiraCode mr-2 pl-1 font-normal not-italic"
+						>
 							@joyal007
 						</p>
 						<img height="24px" width="24px" src={githubSvg} alt="github" />
