@@ -110,7 +110,7 @@
 					</a>
 				</div>
 				<div class="text-secondary flex">
-					<-- <a
+					<!-- <a
 						href="https://github.com/joyal007"
 						class="px-[14px] py-[14px] border-l-[1px] border-accent-10 h-full flex justify-center"
 					>
