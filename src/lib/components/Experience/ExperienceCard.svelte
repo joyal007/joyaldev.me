@@ -21,7 +21,7 @@
 								typeof role == 'string' ? '' : 'block sm:hidden'
 							}`}
 						>
-							{role[0].name}
+							{role[0].name} ·
 							<span class="">{company?.name}</span><svg
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 20 20"
@@ -36,7 +36,7 @@
 							>
 						</h1>
 						<p class="text-[#64748b] text-sm">{item.year[0]} - {item.year[1]}</p>
-						<div class="flex justify-center py-1 sm:static relative -left-9">
+						<div class="flex justify-start py-1 ml-2">
 							<div class="flex flex-col justify-center items-center w-2 gap-2">
 								<div class="w-[5px] h-[5px] rounded-full bg-[#cfcfcf] mx-[1px]" />
 								<div class="w-[1px] h-10 bg-[#cfcfcf]" />
