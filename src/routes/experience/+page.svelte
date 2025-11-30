@@ -12,7 +12,10 @@
 		},
 		{
 			year: ['July, 2024', 'PRESENT'],
-			role: 'Associate Software Engineer',
+			role: [
+				{ name: 'Software Engineer', year: ['Oct ,2025', 'PRESENT'] },
+				{ name: 'Associate Software Engineer', year: ['July, 2024', 'Sep, 2025'] }
+			],
 			company: { name: 'Tarams', link: 'https://www.tarams.com' },
 			description:
 				'At Tarams, we specialize in bridging the gap between ideas and thriving digital ecosystems. With expertise in Product Engineering and Data Engineering & Data Science, we define the path to success, helping companies scale their businesses.'
